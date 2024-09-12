@@ -210,7 +210,7 @@ namespace Bot
         }
 
 
-        static ITelegramBotClient bot = new TelegramBotClient("6128695657:AAF7j_tJ1bxYvCL-8mJwoJk3EmJZlmtAXNQ");
+        static ITelegramBotClient bot = new TelegramBotClient("token");
 
         public static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
         {
